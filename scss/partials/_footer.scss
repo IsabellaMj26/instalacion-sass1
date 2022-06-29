@@ -1,0 +1,26 @@
+.pie-de-pagina {
+    background-color: rgb(226, 194, 135);
+    gap: 2rems;
+    display: grid;
+    justify-content: center;
+    grid-gap: 1rem;
+    padding: 1rem;
+    grid-template-areas:
+        "calificacion"
+        "copy"
+    ;
+
+    .redes {
+        display: flex;
+
+        gap: 2rem;
+        grid-area: copy;
+    }
+
+    .calificacion {
+        font-weight: hold;
+        font-size: 1rem;
+        grid-area: calificacion;
+        margin: auto;
+    }
+}

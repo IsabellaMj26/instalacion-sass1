@@ -1,0 +1,30 @@
+.contenedor {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5 rem;
+
+    .container-experiencias {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+
+    }
+    .container-experiencias img:hover {
+        transform: scale(1.3);
+        transition: transform 300ns ease-in-out;
+    }
+    
+    .card-experiencias {
+        width: 18rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .card-experiencias img {
+        width: 100%;
+    }
+}
